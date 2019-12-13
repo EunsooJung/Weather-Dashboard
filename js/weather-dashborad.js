@@ -41,7 +41,7 @@ $(document).ready(function() {
 
       var city = $('<h1>')
         .addClass('cityName')
-        .text(`City: ${response.name}`);
+        .text(`City: ${response.name} , ${response.sys.country}`);
       var date = $('<h3>')
         .addClass('date')
         .text(`Date: ${time}`);
