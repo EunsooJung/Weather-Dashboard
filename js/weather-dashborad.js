@@ -142,8 +142,8 @@ $(document).ready(function() {
     : [];
   var data = JSON.parse(localStorage.getItem('items'));
 
-  var liMaker = text => {
-    var li = $('<li>').addClass('createdCity btn btn-light');
+  let liMaker = text => {
+    let li = $('<li>').addClass('createdCity btn btn-light');
     li.text(text);
     ul.prepend(li);
   };
