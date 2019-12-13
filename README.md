@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Preview
 
-[![Weather Dashboard](https://raw.githubusercontent.com/EunsooJung/Day-Planner/master/assets/images/Day%20Planner.gif)](https://raw.githubusercontent.com/EunsooJung/Day-Planner/master/assets/images/Day%20Planner.gif)
+[![Weather Dashboard](https://github.com/EunsooJung/Weather-Dashboard/blob/master/img/Weather%20Dashboard.gif?raw=true)](https://github.com/EunsooJung/Weather-Dashboard/blob/master/img/Weather%20Dashboard.gif)
 
 ## Usage
 
@@ -115,7 +115,7 @@ function fiveDayForecast() {
 - **Michael(Eunsoo)Jung**
 
 * [My Portfolio](https://eunsoojung.github.io/Unit-02-Responsive-Portfolio/portfolio.html)
-* [https://eunsoojung.github.io/Day-Planner/](https://eunsoojung.github.io/Day-Planner/)
+* [https://eunsoojung.github.io/Weather-Dashboard/](https://eunsoojung.github.io/Weather-Dashboard/)
 * [Link to Github](https://github.com/)
 * [Link to LinkedIn](www.linkedin.com/in/eun-soo-jung/) www.linkedin.com/in/eun-soo-jung/
 
