@@ -40,9 +40,10 @@ $(document).ready(function() {
       // console.log(response);
       $('.figure').css('display', 'block');
 
+      var city = 'San Francisco,us';
       var city = $('<h1>')
         .addClass('cityName')
-        .text(`City: ${response.name} , ${response.sys.country}`);
+        .text(`City: ${response.name}, ${response.sys.country}`);
       var date = $('<h3>')
         .addClass('date')
         .text(`Date: ${time}`);
