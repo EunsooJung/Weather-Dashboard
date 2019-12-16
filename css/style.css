@@ -1,9 +1,18 @@
-html,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
   background-image: linear-gradient(to bottom right, #c5c5c2, #56595a);
-  min-height: 100vh;
+  min-height: 100%;
   max-width: 100%;
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
@@ -11,6 +20,10 @@ body {
   box-sizing: border-box;
   overflow: hidden;
   background-image: url(../img/rainbow-cloud-and-sunshine.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   opacity: 0.91;
 }
 
