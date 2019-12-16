@@ -3,7 +3,7 @@
 Unit 06 Server-Side APIs: Weather Dashboard
 
 - Built a weather dashboard using the OpenWeather API
-  [Applied to My Reponsive Portfolio](https://eunsoojung.github.io/Unit-02-Responsive-Portfolio/portfolio.html)
+- [Applied to My Reponsive Portfolio](https://eunsoojung.github.io/Unit-02-Responsive-Portfolio/portfolio.html)
 
 ## Getting Started
 
