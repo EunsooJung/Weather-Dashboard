@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Preview
 
-[![Weather Dashboard](https://github.com/EunsooJung/Weather-Dashboard/blob/master/img/Weather%20Dashboard-new.gif?raw=true)](https://github.com/EunsooJung/Weather-Dashboard/blob/master/img/Weather%20Dashboard.gif)
+[![Weather Dashboard](https://github.com/EunsooJung/Weather-Dashboard/blob/master/img/Weather%20Dashboard.gif?raw=true)](https://github.com/EunsooJung/Weather-Dashboard/blob/master/img/Weather%20Dashboard.gif)
 
 ## Usage
 
