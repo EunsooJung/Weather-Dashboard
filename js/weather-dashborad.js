@@ -179,10 +179,10 @@ $(document).ready(function() {
     liMaker(userInput);
   });
 
-  // data.forEach(item => {
-  //   liMaker(item);
-  //   console.log(item);
-  // });
+  data.forEach(item => {
+    liMaker(item);
+    // console.log(item);
+  });
 
   $('.btn-clear').on('click', function() {
     $('.createdCity').remove();

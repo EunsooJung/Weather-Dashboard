@@ -265,10 +265,6 @@ img {
 }
 
 .icon-image {
-  height: 65px;
-  width: 65px;
-  position: absolute;
-  bottom: 112px;
-  left: 400px;
-  right: 0;
+  height: 60px;
+  width: 60px;
 }
