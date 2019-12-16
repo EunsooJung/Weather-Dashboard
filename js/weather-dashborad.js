@@ -26,6 +26,7 @@ $(document).ready(function() {
     $('.figure').empty();
     $('#search-container').animate({ left: '10px' }, 600);
     $('.ulCon').css('display', 'flex');
+
     var queryURL =
       'https://api.openweathermap.org/data/2.5/weather?q=' +
       userInput +
@@ -65,13 +66,37 @@ $(document).ready(function() {
         .addClass('wind-speed')
         .text(`Wind Speed ${response.wind.speed} mph`);
 
+      var uvIdx = $('<h4>').addClass('uvIdx');
+
+      /** */
+      var latitude = response.coord.lat;
+      var lon = response.coord.lon;
+      function getUVidx() {
+        var uvIdxUrl =
+          'https://api.openweathermap.org/data/2.5/uvi?appid=' +
+          myKey +
+          '&lat=' +
+          latitude +
+          '&lon=' +
+          lon;
+        $.ajax({
+          url: uvIdxUrl,
+          method: 'GET'
+        }).then(function(response) {
+          // console.log(response.value);
+          $('.uvIdx').text(' UV Index: ' + response.value);
+        });
+      }
+      getUVidx();
+
       $('.figure').append(
         city,
         iconImage,
         date,
         temperature,
         humidity,
-        windSpeed
+        windSpeed,
+        uvIdx
       );
     });
   }
@@ -154,10 +179,10 @@ $(document).ready(function() {
     liMaker(userInput);
   });
 
-  data.forEach(item => {
-    liMaker(item);
-    console.log(item);
-  });
+  // data.forEach(item => {
+  //   liMaker(item);
+  //   console.log(item);
+  // });
 
   $('.btn-clear').on('click', function() {
     $('.createdCity').remove();
